@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(to top, skyblue, white);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 4300px;
+    background-attachment: fixed;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+}
+
+header{
+    top: 0;
+    left: 0;
+    background: rgba(0, 128, 0, 0);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+    color: rgb(255, 0, 0);
+}
+
+.container{
+    background: linear-gradient(to top, skyblue, white);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    padding: 20px 30px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    margin: 200px 0 0 0;
+    border: 10px ridge rgb(2, 158, 193);
+    color: white;
+}
+
+.header{
+    width: 120px;
+    height: 40px;
+    font-size: 30px;
+    background: rgb(2, 158, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 10px 0;
+    backdrop-filter: blur(2px);
+    border-radius: 0px;
+}
+
+.label{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 100px;
+    height: 17px;
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    border: 10px ridge rgb(2, 158, 193);
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    border: 1px solid white;
+    background: none;
+    transition: .5s;
+    cursor: pointer;
+    color: white;
+
+}
+button:active{
+    background: rgba(255, 255, 255, 0.5);
+    transition: .5s;
+}
+

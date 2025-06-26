@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+section{
+    background: rgba(255, 255, 255, 0.686);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0px;
+    backdrop-filter: blur(5px);
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+section button{
+    width: 20px;
+    height: 15px;
+    margin: 0 20px;
+}
+
+section .section-box{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 11px;
+    position: fixed;
+    padding-top: 0;
+}
+
+.section-box p{
+    position: fixed;
+    margin-right: 150px;
+}
+
+#bg-changer-1{
+    border: 1px solid black;
+    background: white;
+    border-radius: 100px;
+    transition: 0.1s ease-in-out;
+}
+#bg-changer-1:active{
+    width: 18px;
+    height: 10px;
+    transition: 0.1s ease-in-out;
+}
+
+#bg-changer-2{
+    border: 1px solid black;
+    background: black;
+    border-radius: 100px;
+    transition: 0.1s ease-in-out;
+}
+#bg-changer-2:active{
+    width: 18px;
+    height: 10px;
+    transition: 0.1s ease-in-out;
+}
+
+header{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding: 30px 0;
+}
+header p{
+    font-size: clamp(15px, 4vw, 24px);
+    text-transform: uppercase;
+    padding: 0;
+    background: rgba(255, 0, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 0 0;
+}
+
+hr{
+    width: 70%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.capitulo-15, .capitulo-610, .capitulo-1115{
+    background: rgba(255, 0, 0, 0);
+    max-width: 70%;
+    
+    line-height: 40px;
+    text-align: justify;
+
+    font-size: clamp(12px, 3vw, 20px);
+}
+.capitulos{
+    margin: 30px 0 -20px 0;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 40px 20px 0;
+}
+
+footer button{
+    border: 1px solid black;
+    width: 70px;
+    height: 25px;
+    border-radius: 3px;
+    background: white;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 0 12px;
+}
+footer button:active{
+    background: turquoise;
+    transition: 0.2s;
+}
