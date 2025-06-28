@@ -1,127 +1,76 @@
-body{
-    margin: 0;
-    font-family: Helvetica, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="here.css">
+    <title>Depois</title>
+</head>
+<body>
+    <section>
+        <div class="section-box">
+            <p>Escolha ler com o fundo claro ou escuro</p>
+            <button id="bg-changer-1" onclick="bgChangerBright()" alt="Para melhoer experiencia de dia"></button>
+            <button id="bg-changer-2" onclick="bgChangerDark()" alt="Para melhor experiencia de noite"></button>
+        </div>    
+    </section>
+    <header>
+        <p><em>Depois</em></p>
+    </header>
+    <hr>
+    <main>
+        <div class="capitulo-15">
+            <p>
+                <div class="capitulos"><em><strong>Capítulo — 1 Chegada </strong></em></div> <br>
 
-section{
-    background: rgba(255, 255, 255, 0.686);
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    padding: 0px;
-    backdrop-filter: blur(5px);
-    height: 50px;
-    position: sticky;
-    top: 0;
-    left: 0;
-}
-section button{
-    width: 20px;
-    height: 15px;
-    margin: 0 20px;
-}
+                    Depois de anos entre fuso-horários e chamadas de vídeo, desci do avião em MCZ sentindo o sol nordestino queimar mais do que lembrava. Mas o calor verdadeiro que eu queria sentir, era do corpo da mulher que eu amo tocando no meu. Estava ali por uma razão que ia além das férias: Anna Luiza. O nome dela parecia ecoar entre as palmeiras, entre as ondas calmas da orla. 
 
-section .section-box{
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    font-size: 11px;
-    position: fixed;
-    padding-top: 0;
-}
+                    Eu levava no corpo tatuagens que contavam histórias, mas aquela viagem queria escrever outra — com ela. Cabelos escuros baguncados pela brisa, olhos atentos a cada detalhe da cidade onde ela cresceu.
 
-.section-box p{
-    position: fixed;
-    margin-right: 150px;
-}
+                    <div class="capitulos"><em><strong>Capítulo 2 — O primeiro olhar</strong></em></div><br>
 
-#bg-changer-1{
-    border: 1px solid black;
-    background: white;
-    border-radius: 100px;
-    transition: 0.1s ease-in-out;
-}
-#bg-changer-1:active{
-    width: 18px;
-    height: 10px;
-    transition: 0.1s ease-in-out;
-}
+                    Nos marcamos de nos encontrar no calçadão. De longe vi ela com aquela pele branquinha que eu tanto amo, um shortinho e uma camiseta curta que mostrava aquela barriga perfeita dela. O cabelo preso com descuido, mesmo muito tempo depois sem se ver, eu saio correndo na direcao dela e ela faz o mesmo, agarrei ela com toda a forca que eu tenho, sentindo aquele cheiro que parecia que so ela tem no mundo. Vi o sorriso dela e tive que respirar fundo. Cinco anos. E parecia que tudo voltava com um simples olhar.
 
-#bg-changer-2{
-    border: 1px solid black;
-    background: black;
-    border-radius: 100px;
-    transition: 0.1s ease-in-out;
-}
-#bg-changer-2:active{
-    width: 18px;
-    height: 10px;
-    transition: 0.1s ease-in-out;
-}
+                    — Você veio mesmo — ela disse, voz baixa e empolgada, como se ainda testasse a realidade.
 
-header{
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-    padding: 30px 0;
-}
-header p{
-    font-size: clamp(15px, 4vw, 24px);
-    text-transform: uppercase;
-    padding: 0;
-    background: rgba(255, 0, 0, 0);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 40px 0 0 0;
-}
+                    — Nem um furacão me impediria — respondi, abrindo o sorriso que ela tanto gosta.
 
-hr{
-    width: 70%;
-}
+                    A gente caminhava como se nunca tivessem se afastado. Conversando muito e escutando aquela voz maravilhosa que e totalmente diferente pessoalmente, me deixando com um fogo que nao tinha a muito, muito tempo. Cada passo juntos parecia reatar um laço invisível, que o tempo não conseguiu cortar.
+            
+                    <div class="capitulos"><em><strong>Capítulo 3 — A caminhada até o pôr do sol</strong></em></div><br>
 
-main{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
+                    Nos dois seguimos pela orla, descalços na areia fina. O sol já começava a pintar o céu de laranja, e o momento parecia perfeito depois de muito tempo. Anna apontava os lugares onde conhecia — os lugares que frequenta com seus amigos, os passeios de final de semana com sua família. Eu ouvia atento, absorvendo tudo como se quisesse decorar cada detalhe da essência dela.
 
-.capitulo-15, .capitulo-610, .capitulo-1115{
-    background: rgba(255, 0, 0, 0);
-    max-width: 70%;
-    
-    line-height: 40px;
-    text-align: justify;
+                    Havia algo ali — entre palavras ditas e olhares calados — que dizia mais do que anos de mensagens e chamadas.
 
-    font-size: clamp(12px, 3vw, 20px);
-}
-.capitulos{
-    margin: 30px 0 -20px 0;
-}
+                    <div class="capitulos"><em><strong>Capítulo 4 — Ritmo antigo, passo novo</strong></em></div><br>
 
-footer{
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    padding: 0 40px 20px 0;
-}
+                    Naquela noite, jantamos num restaurante à beira-mar. A conversa foi leve, mas os olhares pesavam. Eu via nela não só a menina que conheci anos atrás, mas a mulher em que ela havia se tornado — mais segura, com uma aparencia mais de mulher.
 
-footer button{
-    border: 1px solid black;
-    width: 70px;
-    height: 25px;
-    border-radius: 3px;
-    background: white;
-    cursor: pointer;
-    transition: 0.2s;
-    margin: 0 12px;
-}
-footer button:active{
-    background: turquoise;
-    transition: 0.2s;
-}
+                    — Você ta muito diferente — eu disse.
+
+                    — Você também, Ca. — ela sorriu, com os olhos caidos.
+
+                    As mãos quase se tocaram sobre a mesa. Não tocaram. Mas o quase pesava mais do que o toque teria.
+
+                    <div class="capitulos"><em><strong>Capítulo 5 — Um passeio na livraria</strong></em></div><br>
+
+                    No dia seguinte, fomos a uma livraria que havia na cidade. No comeco tudo parecia normal, ate comecei a ficar com saudade da risada dela, mas antes de tudo, saquei a bombinha de asma da minha pochete que carregava nas costas, daquele estilo hype, e deixo no meu bolso.
+
+                    Entao comecei a fazer ela rir com minhas palavras, fazendo piadas internas que colecionamos durante anos. Ate que fomos subir para o andar de cima, e sem muita atencao, tropecei no degrau da escada, fazendo ela ter uma crise de riso que a deixou fraca e com aquela respiracao ofegante dela.
+
+                    Ela nao parava de rir, e eu rindo de felicidade, que escutava e observava ela a cada segundo que passava, ficando mais apaixonado ainda por ela.
+
+                    No meio do vai-e-vem das pessoas, nossas mãos se encontraram. Foi natural. Como se o universo finalmente tivesse dado permissão. Caminharam assim, dedos entrelaçados, esquecidos do tempo.
+
+            </p>
+        </div>
+    </main>
+    <footer>
+        <a href="next.html">
+            <button id="footer-button">Proximo</button>
+        </a>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
